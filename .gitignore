@@ -1,0 +1,6 @@
+.env
+snowflake_key.p8
+snowflake_key.pub
+venv/
+__pycache__/
+*.pyc
