@@ -5,20 +5,20 @@ Snowflake data analysis with pandas, built week by week.
 
 ## Structure
 
-py-ml-course/
-├── week-1/
-│ ├── day-1/ # Python basics, environment setup
-│ ├── day-2/ # Control flow & functions
-│ ├── day-3/ # Core data structures (lists, dicts, sets)
-│ ├── day-4/ # Files, modules, basic OOP
-│ └── day-5/ # Connecting Python to Snowflake
-└── week-2/
-├── day-1/ # pandas fundamentals, .loc/.iloc, filtering, sorting
-├── day-2/ # Missing data, merging & joining datasets
-├── day-3/ # GroupBy, aggregation, NumPy basics
-├── day-4/ # Exploratory Data Analysis (EDA)
-└── day-5/ # Capstone: visualization + raw-vs-dbt comparison
-
+    py-ml-course/
+               ├── week-1/
+               │        ├── day-1/ Python basics, environment setup
+               │        ├── day-2/ Control flow & functions
+               │        ├── day-3/ Core data structures (lists, dicts, sets)
+               │        ├── day-4/ Files, modules, basic OOP
+               │        └── day-5/ Connecting Python to Snowflake
+               └── week-2/
+               │        ├── day-1/ pandas fundamentals, .loc/.iloc, filtering, sorting
+               │        ├── day-2/ Missing data, merging & joining datasets
+               │        ├── day-3/ GroupBy, aggregation, NumPy basics
+               │        ├── day-4/ Exploratory Data Analysis (EDA)
+               │        └── day-5/ Capstone: visualization + raw-vs-dbt comparison
+               └── ReadMe.md
 
 ## Setup
 
@@ -32,12 +32,12 @@ py-ml-course/
 2. Create a `.env` file in the project root (never committed — see `.gitignore`)
    with your own Snowflake credentials:
 
-SNOWFLAKE_ACCOUNT=...
-SNOWFLAKE_USER=...
-SNOWFLAKE_WAREHOUSE=...
-SNOWFLAKE_DATABASE=...
-SNOWFLAKE_SCHEMA=...
-SNOWFLAKE_PRIVATE_KEY_PATH=...
+         SNOWFLAKE_ACCOUNT=...
+         SNOWFLAKE_USER=...
+         SNOWFLAKE_WAREHOUSE=...
+         SNOWFLAKE_DATABASE=...
+         SNOWFLAKE_SCHEMA=...
+         SNOWFLAKE_PRIVATE_KEY_PATH=...
 
 
 3. Authentication uses **RSA key-pair auth** (not username/password) — see
