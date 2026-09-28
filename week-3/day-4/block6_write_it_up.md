@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Week 3, Day 4 Write-Up: Evaluation Metrics
+=======
+# Week 3, Day 4 — Write-Up: Evaluation Metrics
+>>>>>>> d2e771b (update block6 write-up)
 
 ## 1. Regression Model (Insurance): RMSE and R²
 
@@ -40,4 +44,8 @@ number, which needed the precision/recall breakdown to actually mean something.
 Heading into Day 5, my open question is: for a classification problem like this,
 should the "one number to report" ever just be accuracy, or should precision and
 recall always be reported together as a pair, with accuracy demoted to a
+<<<<<<< HEAD
 secondary sanity check rather than the headline metric?
+=======
+secondary sanity check rather than the headline metric?
+>>>>>>> d2e771b (update block6 write-up)

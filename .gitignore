@@ -4,3 +4,5 @@ snowflake_key.pub
 venv/
 __pycache__/
 *.pyc
+
+week-4/day-1/application_train.csv

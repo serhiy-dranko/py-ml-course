@@ -1,0 +1,6 @@
+{
+  "model__l2_regularization": 0.2870875348195467,
+  "model__learning_rate": 0.04666803030372975,
+  "model__max_leaf_nodes": 19,
+  "model__min_samples_leaf": 100
+}

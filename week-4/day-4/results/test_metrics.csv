@@ -1,0 +1,4 @@
+model,test_roc_auc
+Dummy,0.5
+Simple LR baseline,0.7508625360365959
+Final HGB,0.7617926782179703
